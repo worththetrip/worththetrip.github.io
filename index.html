@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Worth The Trip support</title>
+  <meta name="description" content="Help and contact details for Worth The Trip, the UK app that finds the cheapest fuel near you and tells you whether it's worth the drive.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1c1c1e;
+      --muted: #5f6368;
+      --card: #f2f4f8;
+      --border: #d9dde5;
+      --accent: #1a5fd9;
+      --accent-text: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --text: #f1f2f4;
+        --muted: #a4a9b3;
+        --card: #1a1d24;
+        --border: #2d323c;
+        --accent: #5b9bff;
+        --accent-text: #0f1115;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.25rem; }
+    h2 { font-size: 1.35rem; margin: 2.5rem 0 0.75rem; }
+    h3 { font-size: 1.05rem; margin: 0 0 0.35rem; }
+    p { margin: 0 0 1rem; }
+    a { color: var(--accent); }
+    .tagline { color: var(--muted); font-size: 1.1rem; margin-bottom: 1.75rem; }
+    .contact {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+      margin: 0 0 1rem;
+    }
+    .contact p:last-child { margin-bottom: 0; }
+    .button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--accent-text);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.7rem 1.1rem;
+      border-radius: 10px;
+      margin: 0.25rem 0 0.75rem;
+    }
+    .button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    details {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.15rem 1rem;
+      margin: 0 0 0.6rem;
+    }
+    summary { cursor: pointer; font-weight: 600; padding: 0.75rem 0; }
+    details[open] summary { margin-bottom: 0.1rem; }
+    details p, details ul { margin-top: 0; }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 0.35rem; }
+    .small { color: var(--muted); font-size: 0.9rem; }
+    footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Worth The Trip</h1>
+  <p class="tagline">Find the cheapest fuel near you in the UK, and whether it's worth the drive.</p>
+
+  <h2>Contact support</h2>
+  <div class="contact">
+    <p>Questions, problems or ideas? Email us and we'll get back to you, usually within two working days.</p>
+    <a class="button" href="mailto:worththetrip.support@gmail.com?subject=Worth%20The%20Trip%3A%20Support">worththetrip.support@gmail.com</a>
+    <p class="small">It helps to say which iPhone and iOS version you have, what you were doing, and what you expected to happen. Please don't send passwords or payment details.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <details>
+    <summary>Where do the prices come from?</summary>
+    <p>From the UK government's Fuel Finder service. Petrol station operators are legally required to report their prices to it within 30 minutes of a change, and Worth The Trip shows that data. We don't set or change any prices.</p>
+  </details>
+
+  <details>
+    <summary>A price is wrong or out of date</summary>
+    <p>Prices are reported by the station's operator, so we can't correct them. Please check the price on the pump. The clock beside each price shows how long ago it last changed: many stations only update when their price moves, so an older price is often still right. If a station's price is consistently wrong, the operator is responsible for updating it with Fuel Finder.</p>
+  </details>
+
+  <details>
+    <summary>The app says prices may be out of date, or that I'm offline</summary>
+    <p>If you're offline or a refresh fails, the app keeps showing the last prices it saved and tells you how old they are. If it says the data source may be having problems, the prices haven't been updated for over an hour. Pull down on the list to try again, and if it carries on, email us.</p>
+  </details>
+
+  <details>
+    <summary>How does "worth the trip" work?</summary>
+    <p>Each station is compared with the nearest one. The app works out what you'd save on a fill (using your tank size and your discounts), then subtracts the fuel burned driving the extra distance there and back, using your car's miles per gallon. "Best value" is the station with the biggest saving after that. Set your car in Settings for more accurate figures. It's an estimate, not a quote.</p>
+  </details>
+
+  <details>
+    <summary>Why does the app need my location?</summary>
+    <p>To measure how far each station is from you. Your location stays on your iPhone and is never uploaded. If you'd rather not share it, you can turn it off in iOS Settings and search for a town or postcode instead.</p>
+  </details>
+
+  <details>
+    <summary>What's free and what's Pro?</summary>
+    <p><strong>Free:</strong> every price and station, the list and map, directions in Apple Maps, Google Maps or Waze, opening hours, the worth-the-trip estimate and best-value sorting, your own loyalty discounts, sharing a station, and three favourites.</p>
+    <p><strong>Pro</strong> (an annual subscription, or a one-off lifetime purchase) adds price alerts, price trends and history, comparing stations side by side, the trip planner, saved places (Home and Work), several saved cars, the fill-up log with real mpg and savings, and unlimited favourites.</p>
+  </details>
+
+  <details>
+    <summary>I bought Pro but it isn't unlocked</summary>
+    <ul>
+      <li>Open Settings in the app and tap <strong>Restore Purchases</strong>.</li>
+      <li>Make sure you're signed in to the same Apple Account you bought it with.</li>
+      <li>If it still doesn't unlock, email us with the email address on your Apple receipt.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>How do I cancel my subscription or ask for a refund?</summary>
+    <p>Subscriptions are managed by Apple, not by us. On your iPhone, open <strong>Settings</strong>, tap your name, then <strong>Subscriptions</strong>, choose Worth The Trip Pro and tap <strong>Cancel Subscription</strong>. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. The lifetime option is a single payment and has nothing to cancel.</p>
+  </details>
+
+  <details>
+    <summary>My price alerts aren't arriving</summary>
+    <ul>
+      <li>Check that notifications are on for Worth The Trip in iOS Settings, then Notifications.</li>
+      <li>Turn on Background App Refresh for the app in iOS Settings, then General.</li>
+      <li>Alerts are checked whenever the app refreshes, and iOS also wakes the app now and then in the background, usually a few times a day. So an alert can arrive late. It isn't instant.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Does it work outside the UK?</summary>
+    <p>No. The data only covers UK petrol stations. If you're abroad, you can still search for a UK town or postcode to see prices there.</p>
+  </details>
+
+  <details>
+    <summary>What information do you keep about me?</summary>
+    <p>There are no accounts. Your settings, favourites, saved cars, discounts, price alerts and any fill-ups you log are stored only on your iPhone, and deleting the app erases them. Our <a href="privacy.html">privacy policy</a> has the details.</p>
+  </details>
+
+  <footer>
+    <p class="small">Worth The Trip is an independent app. It is not affiliated with or endorsed by GOV.UK, the Department for Energy Security and Net Zero, or Fuel Finder.</p>
+    <p class="small">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>. Source: UK Fuel Finder.</p>
+    <p class="small">Prices can be out of date or wrong. Always check the pump price.</p>
+    <p class="small"><a href="privacy.html">Privacy policy</a></p>
+  </footer>
+</main>
+</body>
+</html>
